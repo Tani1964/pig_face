@@ -1,0 +1,97 @@
+.container{
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.ears{
+    position: absolute;
+    z-index: 0;
+    width: 600px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-top: -2%;
+}
+
+.ear{
+    border: 6px solid black;
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    background-color: pink;
+}
+
+.ear2{
+    margin-left: 15%;
+}
+
+.head{
+    padding-top: 5%;
+    position: relative;
+    z-index: 1;
+    border: 6px solid black;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    display: grid;
+    grid-template-row: repeat(2, 1fr);
+    background-color: pink;
+}
+
+.eyes{
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    align-items: center;
+    padding-top: 10%;
+    padding-left: 13%; 
+    margin-bottom: 0%;
+}
+
+.eye{
+    border: 3px solid black;
+    width: 65%;
+    height: 65%;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    margin-bottom: 0%;
+    background-color: white;
+}
+
+.pupil{
+    background-color: black;
+    width: 50%;
+    height: 50%;
+    justify-self: center;
+    border-radius: 50%;
+}
+
+.btm{
+    display: grid;
+    
+}
+
+.nose{
+    border: 3px solid black;
+    height: 65%;
+    width: 50%;
+    justify-self: center;
+    border-radius: 30%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: rgb(250, 121, 143);
+}
+
+.nostril{
+    background-color: black;
+    width: 50%;
+    height: 60%;
+    justify-self: center;
+    border-radius: 50%;
+}
+
